@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/USERNAME/JavaCICD.git'
+                url: 'https://github.com/24h51a05a4-stack/JAVACICD.git'
             }
         }
 
